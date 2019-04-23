@@ -19,6 +19,9 @@ import translateInsetIconURL from './translate/translate-small.png';
 import makeymakeyIconURL from './makeymakey/makeymakey.png';
 import makeymakeyInsetIconURL from './makeymakey/makeymakey-small.svg';
 
+import scratchjrIconURL from './scratchjr/scratchjr.png';
+import scratchjrInsetIconURL from './scratchjr/scratchjr-small.svg';
+
 import microbitIconURL from './microbit/microbit.png';
 import microbitInsetIconURL from './microbit/microbit-small.svg';
 import microbitConnectionIconURL from './microbit/microbit-illustration.svg';
@@ -170,8 +173,8 @@ export default [
         name: 'Scratch Jr',
         extensionId: 'scratchjr',
         collaborator: 'AnaJu',
-        iconURL: makeymakeyIconURL,
-        insetIconURL: makeymakeyInsetIconURL,
+        iconURL: scratchjrIconURL,
+        insetIconURL: scratchjrInsetIconURL,
         description: (
             <FormattedMessage
                 defaultMessage="Play with juniors"
