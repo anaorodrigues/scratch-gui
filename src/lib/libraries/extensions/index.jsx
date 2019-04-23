@@ -167,6 +167,21 @@ export default [
         featured: true
     },
     {
+        name: 'Scratch Jr',
+        extensionId: 'scratchjr',
+        collaborator: 'AnaJu',
+        iconURL: makeymakeyIconURL,
+        insetIconURL: makeymakeyInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Play with juniors"
+                description="Description for the 'Scratch Jr' extension"
+                id="gui.extension.scratchjr.description"
+            />
+        ),
+        featured: true
+    },
+    {
         name: 'micro:bit',
         extensionId: 'microbit',
         collaborator: 'micro:bit',
