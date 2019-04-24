@@ -51,6 +51,21 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
     {
+        name: 'Scratch Jr',
+        extensionId: 'scratchjr',
+        collaborator: 'AnaJu',
+        iconURL: scratchjrIconURL,
+        insetIconURL: scratchjrInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Play with juniors"
+                description="Description for the 'Scratch Jr' extension"
+                id="gui.extension.scratchjr.description"
+            />
+        ),
+        featured: true
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
@@ -165,21 +180,6 @@ export default [
                 defaultMessage="Make anything into a key."
                 description="Description for the 'Makey Makey' extension"
                 id="gui.extension.makeymakey.description"
-            />
-        ),
-        featured: true
-    },
-    {
-        name: 'Scratch Jr',
-        extensionId: 'scratchjr',
-        collaborator: 'AnaJu',
-        iconURL: scratchjrIconURL,
-        insetIconURL: scratchjrInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Play with juniors"
-                description="Description for the 'Scratch Jr' extension"
-                id="gui.extension.scratchjr.description"
             />
         ),
         featured: true
